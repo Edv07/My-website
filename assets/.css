@@ -1,0 +1,100 @@
+* {
+font-family: "Times New Roman", Times, serif;
+margin: 0;
+padding: 0;
+}
+
+p {
+font-size: 18px;
+padding: 10px;
+}
+
+body {
+    background-color: rgb(48, 211, 102);
+}
+
+
+header {
+    background-color: rgb(75, 170, 173);
+}
+
+.Topport {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Toptext {
+    font-size: 20px;
+}
+
+.Linkalign {
+    display: flex; justify-content: space-evenly; 
+    padding-bottom: 2rem;
+}
+
+p.Linkdesign{
+    padding: 10px;
+    width: 80px;
+    height: 75px;
+border-style: dotted;
+border-color: black;
+border-radius: 25px;    
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+section {
+  flex-wrap: wrap;
+  
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.Photome {
+    width: 275px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Sectionitems {
+    border-style: dashed;
+    border-color: black;
+    flex-direction: column;
+    text-align:inherit;
+}  
+
+.Deployed {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+text-align: center;
+
+}
+    
+.webpage1 {
+margin-top: 10px;
+border-style:dashed;
+border-color: black;
+border-radius: 2px; 
+}
+
+
+
+
+
+
+
+footer {
+    display: flex; justify-content: space-around;
+    display:table-row 0;
+    align-items: flex-end;
+}
