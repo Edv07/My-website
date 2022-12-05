@@ -7,15 +7,30 @@ padding: 0;
 p {
 font-size: 18px;
 padding: 10px;
+color: azure;
+}
+
+a { 
+    color: blue;
+    transition:ease-in-out 0.5s;
+}
+
+a:hover {
+    color: red
+}
+
+ul{
+border-style: groove;
+display: inline-table;
 }
 
 body {
-    background-color: rgb(48, 211, 102);
+    background-color: rgb(49, 60, 163);
 }
 
 
 header {
-    background-color: rgb(75, 170, 173);
+    background-color: rgb(119, 213, 216);
 }
 
 .Topport {
@@ -32,22 +47,15 @@ header {
     padding-bottom: 2rem;
 }
 
-p.Linkdesign{
+p.boxdesign{
     padding: 10px;
     width: 80px;
     height: 75px;
-border-style: dotted;
-border-color: black;
 border-radius: 25px;    
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
-}
-
-section {
-  flex-wrap: wrap;
-  
 }
 
 h2 {
@@ -58,34 +66,34 @@ h2 {
 
 .Photome {
     width: 275px;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-
+    height: 450px;  
 }
 
 .Sectionitems {
-    border-style: dashed;
-    border-color: black;
-    flex-direction: column;
-    text-align:inherit;
+    text-align: center;
 }  
 
 .Deployed {
-
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
 text-align: center;
-
 }
     
-.webpage1 {
+.webpages {
 margin-top: 10px;
 border-style:dashed;
 border-color: black;
-border-radius: 2px; 
+border-radius: 2px;
 }
+
+.Languages {
+ font-size: larger;
+ border-style: groove;
+ border-color: black;
+} 
+
+
 
 
 
