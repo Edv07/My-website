@@ -37,7 +37,12 @@ header {
     background-color: rgb(119, 213, 216);
 }
 
-.Topport {
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Topportfolio {
     text-align: center;
     font-weight: bolder;
 }
@@ -55,18 +60,14 @@ p.boxdesign{
     padding: 10px;
     width: 80px;
     height: 75px;
+    border-style: groove;
+    border-color: black;
 border-radius: 25px;    
 display: flex;
 justify-content: center;
 align-items: center;
 text-align: center;
 }
-
-h2 {
-    text-align: center;
-    margin-top: 20px;
-}
-
 
 .Photome {
     width: 275px;
